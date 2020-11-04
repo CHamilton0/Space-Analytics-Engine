@@ -21,7 +21,7 @@ To run this project in its entirety using an NVIDIA GPU, you will need:
 * Matplotlib
 
 ## Training ##
-Training on the Airbus ship detection challenge dataset can be done with the training.ipynb notebook. Please modify the paths near the beginning of the notebook to work with your directory structure. You are able to modify the training parameters as you need.
+Training on the Airbus ship detection challenge dataset can be done with the training.ipynb notebook. Please modify the paths near the beginning of the notebook to work with your directory structure. You are able to modify the training parameters as you need. Training on the Airbus Ship Detection Challenge Dataset is based on the code from https://github.com/abhinavsagar/kaggle-notebooks/blob/master/ship_segmentation.ipynb
 
 ## Testing ##
 Testing of the trained model can be done with the testing.ipynb notebook. Please provide the location of the weights you would like to test. This notebook will also evaluate the model against the dataset to calculate the mAP and mAR.
