@@ -1,5 +1,5 @@
 # Space Analytics Engine #
-Major project for Topics in Computer Science. Implementing machine learning for ship detection using Mask R-CNN framework.
+Major project for Topics in Computer Science. Implementing machine learning for ship detection using Mask R-CNN framework. Also includes an implementation of model pruning to reduce the storage, memory, and power usage of the model.
 
 ## Mask R-CNN Implementation ##
 Matterport has released a Mask R-CNN implemetation using TensorFlow and Keras in Python that will be used in this project. The original repository can be found at https://github.com/matterport/Mask_RCNN. The modified version for TensorFlow 2 that is used in this project can be found at https://github.com/akTwelve/Mask_RCNN. This version was furhter modified to include a function to save the outputted images directly.
